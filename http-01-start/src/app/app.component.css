@@ -1,0 +1,33 @@
+/* .container {
+  margin-top: 30px;
+}
+
+.row {
+  margin: 20px 0;
+} */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#container {
+	min-width: 310px;
+	max-width: 800px;
+	height: 400px;
+	margin: 0 auto
+}
+
+#main-head{
+  background-color: cornflowerblue;
+  text-align: center;
+}
